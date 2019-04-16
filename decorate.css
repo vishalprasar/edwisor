@@ -1,0 +1,56 @@
+.root{
+	font-size:50px;
+}
+body{
+	background-color:black;
+}
+@media screen and (min-width:480px){
+	body{
+		background-color:pink;
+	}
+}
+.wrapper {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+
+#menulist {
+  margin: 0;
+  padding: 0;
+}
+
+.menuitem {
+  background: #CDF0F6;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+.parent{
+background:tomato;
+
+width:50vw;
+font-size:2rem;
+}
+.child{
+background:lime;
+
+width:60vw;
+font-size:4rem;
+}
+.secondchild{
+background:khaki;
+height:2vh;
+width:60vw;
+
+}
